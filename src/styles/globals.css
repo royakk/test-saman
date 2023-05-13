@@ -18,10 +18,38 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url('../../asset/fonts/iran-sanse-web/IRANSansWeb_Light.ttf');
+  font-weight:lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url('../../asset/fonts/iran-sanse-web/IRANSansWeb.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url('../../asset/fonts/iran-sanse-web/IRANSansWeb_Black.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url('../../asset/fonts/iran-sanse-web/IRANSansWeb_Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+.MuiTypography-root{
+  font-family: "IRANSansWeb";
+
 }

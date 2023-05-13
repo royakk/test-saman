@@ -1,0 +1,13 @@
+.main{
+ padding: 20px;
+ direction: rtl;
+
+}
+
+.sub{
+    /* background-color: rgb(241, 241, 241); */
+    list-style-type: none;
+    padding: 10px 0;
+    border-bottom: 1px #b5b5b5;
+    border-style: dashed;
+}
